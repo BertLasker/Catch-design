@@ -1,0 +1,12 @@
+body {
+    padding-top:100px;
+    padding-bottom: 100px;
+    /*background: #EDF0F7;*/
+}
+th {
+    background-color: #0044CC;
+    color: white;
+}
+img {
+    margin: 20px auto;
+}

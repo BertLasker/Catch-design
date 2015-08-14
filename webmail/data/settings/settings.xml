@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Common>
+		<!-- Default title that will be shown in browser's header (Default domain settings). -->
+		<SiteName>Catch-design</SiteName>
+		<!-- License key is supplied here. -->
+		<LicenseKey />
+		<AdminLogin>mailadm</AdminLogin>
+		<AdminPassword>e3ffd690450252e861cb10dff9de6c73</AdminPassword>
+		<DBType>MySQL</DBType>
+		<DBPrefix />
+		<DBHost>localhost</DBHost>
+		<DBName>CatchDesign</DBName>
+		<DBLogin>root</DBLogin>
+		<DBPassword>basjas13</DBPassword>
+		<UseSlaveConnection>Off</UseSlaveConnection>
+		<DBSlaveHost>127.0.0.1</DBSlaveHost>
+		<DBSlaveName />
+		<DBSlaveLogin>root</DBSlaveLogin>
+		<DBSlavePassword />
+		<DefaultLanguage>Dutch</DefaultLanguage>
+		<DefaultTimeZone>27</DefaultTimeZone>
+		<DefaultTimeFormat>F24</DefaultTimeFormat>
+		<DefaultDateFormat>DD/MM/YYYY</DefaultDateFormat>
+		<AllowRegistration>Off</AllowRegistration>
+		<RegistrationDomains />
+		<RegistrationQuestions />
+		<AllowPasswordReset>Off</AllowPasswordReset>
+		<EnableLogging>Off</EnableLogging>
+		<EnableEventLogging>Off</EnableEventLogging>
+		<LoggingLevel>Full</LoggingLevel>
+		<EnableMobileSync>Off</EnableMobileSync>
+		<TenantGlobalCapa />
+		<LoginStyleImage />
+		<AppStyleImage />
+		<DefaultTab>mailbox</DefaultTab>
+		<RedirectToHttps>Off</RedirectToHttps>
+		<PasswordMinLength>0</PasswordMinLength>
+		<PasswordMustBeComplex>Off</PasswordMustBeComplex>
+	</Common>
+	<WebMail>
+		<AllowWebMail>On</AllowWebMail>
+		<IncomingMailProtocol>IMAP4</IncomingMailProtocol>
+		<IncomingMailServer>mail.axc.nl</IncomingMailServer>
+		<IncomingMailPort>993</IncomingMailPort>
+		<IncomingMailUseSSL>On</IncomingMailUseSSL>
+		<OutgoingMailServer>mail.axc.nl</OutgoingMailServer>
+		<OutgoingMailPort>465</OutgoingMailPort>
+		<OutgoingMailAuth>AuthCurrentUser</OutgoingMailAuth>
+		<OutgoingMailLogin />
+		<OutgoingMailPassword />
+		<OutgoingMailUseSSL>On</OutgoingMailUseSSL>
+		<OutgoingSendingMethod>Specified</OutgoingSendingMethod>
+		<UserQuota>0</UserQuota>
+		<ShowQuotaBar>On</ShowQuotaBar>
+		<AutoCheckMailInterval>1</AutoCheckMailInterval>
+		<DefaultSkin>White</DefaultSkin>
+		<MailsPerPage>20</MailsPerPage>
+		<AllowUsersChangeInterfaceSettings>Off</AllowUsersChangeInterfaceSettings>
+		<AllowUsersChangeEmailSettings>On</AllowUsersChangeEmailSettings>
+		<EnableAttachmentSizeLimit>Off</EnableAttachmentSizeLimit>
+		<AttachmentSizeLimit>102400000</AttachmentSizeLimit>
+		<ImageUploadSizeLimit>10240000</ImageUploadSizeLimit>
+		<AllowLanguageOnLogin>On</AllowLanguageOnLogin>
+		<FlagsLangSelect>Off</FlagsLangSelect>
+		<LoginFormType>Email</LoginFormType>
+		<LoginSignMeType>DefaultOn</LoginSignMeType>
+		<LoginAtDomainValue />
+		<UseLoginWithoutDomain>Off</UseLoginWithoutDomain>
+		<AllowNewUsersRegister>On</AllowNewUsersRegister>
+		<AllowUsersAddNewAccounts>Off</AllowUsersAddNewAccounts>
+		<AllowOpenPGP>Off</AllowOpenPGP>
+		<AllowIdentities>On</AllowIdentities>
+		<AllowInsertImage>On</AllowInsertImage>
+		<AllowBodySize>Off</AllowBodySize>
+		<MaxBodySize>600</MaxBodySize>
+		<MaxSubjectSize>255</MaxSubjectSize>
+		<Layout>Side</Layout>
+		<AlwaysShowImagesInMessage>Off</AlwaysShowImagesInMessage>
+		<SaveMail>Always</SaveMail>
+		<IdleSessionTimeout>0</IdleSessionTimeout>
+		<UseSortImapForDateMode>On</UseSortImapForDateMode>
+		<UseThreadsIfSupported>On</UseThreadsIfSupported>
+		<DetectSpecialFoldersWithXList>On</DetectSpecialFoldersWithXList>
+		<EnableLastLoginNotification>Off</EnableLastLoginNotification>
+		<ExternalHostNameOfLocalImap />
+		<ExternalHostNameOfLocalSmtp />
+		<ExternalHostNameOfDAVServer />
+	</WebMail>
+	<Calendar>
+		<AllowCalendar>Off</AllowCalendar>
+		<ShowWeekEnds>Off</ShowWeekEnds>
+		<WorkdayStarts>9</WorkdayStarts>
+		<WorkdayEnds>18</WorkdayEnds>
+		<ShowWorkDay>On</ShowWorkDay>
+		<WeekStartsOn>Monday</WeekStartsOn>
+		<DefaultTab>Month</DefaultTab>
+		<AllowReminders>On</AllowReminders>
+	</Calendar>
+	<Contacts>
+		<AllowContacts>On</AllowContacts>
+		<ContactsPerPage>20</ContactsPerPage>
+		<ShowGlobalContactsInAddressBook>Off</ShowGlobalContactsInAddressBook>
+		<GlobalAddressBookVisibility>Off</GlobalAddressBookVisibility>
+	</Contacts>
+	<Files>
+		<AllowFiles>Off</AllowFiles>
+		<EnableSizeLimit>Off</EnableSizeLimit>
+		<SizeLimit>0</SizeLimit>
+	</Files>
+	<Sip>
+		<AllowSip>Off</AllowSip>
+		<Realm />
+		<WebsocketProxyUrl />
+		<OutboundProxyUrl />
+		<CallerID />
+	</Sip>
+	<Twilio>
+		<AllowTwilio>Off</AllowTwilio>
+		<PhoneNumber />
+		<AccountSID />
+		<AuthToken />
+		<AppSID />
+	</Twilio>
+	<Socials />
+	<Helpdesk>
+		<AllowHelpdesk>Off</AllowHelpdesk>
+		<AdminEmailAccount />
+		<ClientIframeUrl />
+		<AgentIframeUrl />
+		<SiteName />
+		<StyleAllow>Off</StyleAllow>
+		<StyleImage />
+		<StyleText />
+		<FetcherType>NONE</FetcherType>
+		<FacebookAllow>Off</FacebookAllow>
+		<FacebookId />
+		<FacebookSecret />
+		<GoogleAllow>Off</GoogleAllow>
+		<GoogleId />
+		<GoogleSecret />
+		<TwitterAllow>Off</TwitterAllow>
+		<TwitterId />
+		<TwitterSecret />
+	</Helpdesk>
+</Settings>
